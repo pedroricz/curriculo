@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Curriculo</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    body{
+    width: 100%;
+    color:  #069;
+    text-align: center;
+    min-height: 100vh;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 50%;
+        overflow-y: scroll;
+        height: 90vh;
+        padding: 15px 2%;
+        box-shadow: 0 0 5px  #069;
+    }
+    .container::-webkit-scrollbar
+    {
+        width: 14px;
+        border: 1px solid #069;
+    }
+    .container::-webkit-scrollbar-thumb
+    {
+        background-color:  #069;
+        border-radius: 6px;
+    }
+}
+    .hr_dados1
+    {
+        border-top: medium dashed
+        #069;
+        border-bottom: medium
+        dashed  #069;
+        height: 5px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+
+    }
+    .hr_dados1::after{
+        content: "Pedro Ricz";
+        font-size: 1.4em;
+        padding: 0 0,3em;
+        top: -0.7em;
+        background: #fff;
+        display: inline;
+        position: relative;
+    }
+    .hr_01{
+        border-top: medium dashed
+        #069;
+        border-bottom: medium dashed
+        #069;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_01::after{
+        content: "Objetivo";
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .hr_02{
+        border-top: medium dashed
+        #069;
+        border-bottom: medium dashed
+        #069;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_02::after{
+        content: "Resumo";
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }   
+    .hr_03{
+        border-top: medium dashed
+        #069;
+        border-bottom: medium dashed
+        #069;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_03::after{
+        content: "Formação";
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }   
+    .hr_04{
+        border-top: medium dashed
+        #069;
+        border-bottom: medium dashed
+        #069;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_04::after{
+        content: "Habilidades";
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .hr_05{
+        border-top: medium dashed
+        #069;
+        border-bottom: medium dashed
+        #069;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_05::after{
+        content: "Ferramentas";
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .hr_06{
+        border-top: medium dashed
+        #069;
+        border-bottom: medium dashed
+        #069;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_06::after{
+        content: "Linguagens";
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .hr_07{
+        border-top: medium dashed
+        #069;
+        border-bottom: medium dashed
+        #069;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_07::after{
+        content: "Estudos.";
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .fab{
+        cursor: pointer;
+        margin: 5px;
+        max-height: 100%;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .fab:hover{
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        transform: scale(1.5);
+        color: #000;
+
+    }
+</style>
+<body>
+    <div class="container">
+        <hr class="hr_dados1"><br><br>
+        <img src="pedroricz.jpg" alt="pedroricz" width="200" height="300">
+        <h3>18 Anos, Masculino</h3>
+        <h3>Rua Mario Mesquita Marques, 80 - Pompeia - Sp</h3>
+        <h3>(14) 998035328</h3>
+        <h3>Email: ipedrogod20@gmail.com</h3>
+        <h3>Linkedin: @pedroricz</h3><br>
+        <hr class="hr_01"><br>
+        <h3>Colaborar com ambientes de trabalho onde possa colocar em prática meus conhecimentos.</h3><br>
+        <hr class="hr_02"><br>
+        <h3>Ainda sem nenhuma experiência no mercado de tecnologia.</h3><br>
+        <hr class="hr_03"><br>
+        <h3>Curso Superior - Análise e Desenvolvimento de Sistemas</h3><br>
+        <h4>Universidade de Marília - 2024 a 2027</h4><br>
+        <hr class="hr_04"><br>
+        <h3>Habilidades e Competências;<br>
+            <br>
+            Conhecimento de sistemas operacionais;<br>
+            <br>
+            Organização;<br>
+            <br>
+            Trabalho em equipe;<br>
+            <br>
+            Proatividade<br><br>
+        </h3>
+        <hr class="hr_05"><br>
+        <li>Microsoft Visual Studio Code, GitHub
+        </li>
+        <li>Pacote Office
+        </li>
+        <li>
+            PhotoShop<br><br>
+        </li>
+        <hr class="hr_06"><br>
+        <h3>Inglês Básico</h3>
+        <br>
+        <hr class="hr_07"><br>
+        <ul>
+            <li>
+                Estudante de Html, Css, JavaScript e etc..
+            </li>
+        </ul>
+</body>
+</html>
